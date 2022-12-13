@@ -3,7 +3,7 @@ import Image from "next/image";
 import localFont from "@next/font/local";
 import Link from "../components/Link";
 
-const myFont = localFont({ src: "./vcr-osd-mono.ttf" });
+const myFont = localFont({ src: "./vcr-osd-mono.ttf", preload: true });
 
 export default function Home() {
     return (
