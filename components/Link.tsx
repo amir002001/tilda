@@ -8,8 +8,8 @@ interface LinkProps {
 
 export default function Link({ href, text, className }: LinkProps) {
     return (
-        <a href={href} className={`${className || ""} flex items-center gap-3 item-shadow`}>
-            <span className="text-5xl uppercase ">{text}</span>
+        <a href={href} className={`${className || ""} flex items-center gap-3 item-shadow link  transition-all`}>
+            <span className="text-5xl uppercase hover:underline">{text}</span>
             <svg
             className="w-4"
                 width="110"

@@ -13,6 +13,9 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .underscore {
+        animation: cursor-blink 1.5s steps(1) infinite;
+    }
 }
 
 @layer utilities {
@@ -22,5 +25,24 @@
 
     .item-shadow {
         filter: drop-shadow(2px 2px 0px #807F7F);
+    }
+
+}
+
+@layer components {
+    .link:active {
+        filter: none;
+        transition: all;
+        transition-timing-function: cubic-bezier();
+        transition-duration: 150ms;
+    }
+}
+
+@keyframes cursor-blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1
     }
 }

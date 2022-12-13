@@ -22,8 +22,8 @@ export default function Home() {
             >
                 {/* title */}
                 <div className="">
-                    <span className="title-shadow text-[256px] ">~</span>
-                    <span className="text-[128px] title-shadow">_</span>
+                    <span className="title-shadow text-[256px]">~</span>
+                    <span className="text-[128px] title-shadow underscore">_</span>
                 </div>
                 {/* links */}
                 <div>
