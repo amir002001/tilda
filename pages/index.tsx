@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Tilda</title>
+                <title>Tilda - Podcast</title>
                 <meta
                     name="description"
                     content="The Tilda Podcast"
